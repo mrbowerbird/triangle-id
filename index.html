@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle ID</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle ID</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Find out what kind of triangle you have!</h2>
+          <form id="triangle">
+            <div class="form-group">
+              <label for="sideA">Enter Side A:</label>
+              <input type="number" class="form-control" id="sideA">
+            </div>
+            <div class="form-group">
+              <label for="sideB">Enter Side B:</label>
+              <input type="number" class="form-control" id="sideB">
+            </div>
+            <div class="form-group">
+              <label for="sideC">Enter Side C:</label>
+              <input type="number" class="form-control" id="sideC">
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+          </form>
+
+          <h2>Results</h2>
+          <p id="notTriangle">Not a triangle</p>
+          <p id="equilateral">equilateral</p>
+          <p id="isosceles">isosceles</p>
+          <p id="scalene">scalene</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
